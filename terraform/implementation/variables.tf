@@ -4,12 +4,10 @@ variable "project_id" {
 
 variable "region" {
   description = "value of the GCP region to deploy to"
-  default     = "us-central1"
 }
 
 variable "zone" {
   description = "value of the GCP zone to deploy to"
-  default     = "us-central1-a"
 }
 
 variable "gcp_services_list" {
