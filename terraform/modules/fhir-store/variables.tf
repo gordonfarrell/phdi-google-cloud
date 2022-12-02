@@ -13,7 +13,6 @@ variable "fhir_version" {
 variable "region" {
   type        = string
   description = "The GCP region to deploy to"
-  default     = "us-east1"
 }
 
 variable "project_id" {
